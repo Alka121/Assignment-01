@@ -1,0 +1,90 @@
+/*Mobile*/
+@media(max-width:992px){
+    .container{
+        flex-flow: column;
+        padding:20px;
+    }
+    header{
+        padding: 20px;
+    }
+    header>nav>ul>li{
+        display: block;
+        text-align: center;
+    }
+    .banner{
+        align-items: center;
+        justify-content: center;
+    }
+    .card>.placeHolder{
+        flex-flow: column;
+    }
+    .card>.placeHolder>.item{
+        width:85%;
+        height:450px;
+        background-color: #fff;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin:20px;
+    
+    }
+    .banner>div{
+        background-color: rgba(253, 14, 14, 0.35);
+        padding: 20px;
+        text-align: left;
+        line-height: 1;
+        color: #fff;
+        margin-left: 3px;
+    }
+    
+    .banner>div>h1{
+        font-size: 20px;
+    }
+    
+    .banner>div>p{
+        font-size: 10px;
+        width: 150px;
+    }
+}
+
+/*Tab */
+@media(min-width:993px) and (max-width:1200px){
+    .container{
+        padding: 0px 30px 0px 30px;
+    }
+    header{
+        flex-direction: column !important;
+        justify-content: center;
+        padding: 20px !important;
+    }
+    .card>.placeHolder{
+        flex-flow: column;
+
+    }
+    .card>.placeHolder>.item{
+        width:85%;
+        height:450px;
+        background-color: #fff;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin:20px;
+    
+    }
+    .banner>div{
+        background-color: rgba(253, 14, 14, 0.35);
+        padding: 30px;
+        text-align: left;
+        line-height: 1;
+        color: #fff;
+        margin-left: 173px;
+    }
+    
+    .banner>div>h1{
+        font-size: 40px;
+    }
+    
+    .banner>div>p{
+        font-size: 15px;
+        width: 350px;
+    }
+    
+}

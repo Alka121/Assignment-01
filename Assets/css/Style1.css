@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:red;
+    --font-color: #fff;
+    --footer-bg-color: #000;
+}
+/*Container */
+.container  {
+    display: flex;
+    flex-flow:row wrap;
+    gap:20px;
+    
+}
+/*Header Code*/
+header{
+    background-color: var(--font-color);
+    justify-content: space-between;
+    align-items: center;
+    color:var(--footer-bg-color);
+    font-weight: bold;
+    font-size: 22px;
+    padding :0px 50px 0px 50px;
+}
+header>nav>ul{
+    list-style: none;
+}
+header>nav>ul>li{
+     display: inline-block;
+     padding:25px;
+}
+header>nav>ul>li:hover{
+   background-color: #000;
+}
+header>nav>ul>li>a{
+    color: inherit;
+    text-decoration: none;
+}
+header>nav>ul>li:hover a{
+    color: var(--bg-color);
+}
+/*Banner*/
+.banner{
+    background: url(../Images/Page\ First\ Img.jpg) no-repeat center;
+    background-size: 100%;
+    height: 700px;
+    align-items: center;
+    
+}
+.banner{
+    align-items: center;
+}
+.banner>div{
+    background-color: rgba(253, 14, 14, 0.35);
+    padding: 30px;
+    text-align: left;
+    line-height: 1;
+    color: #fff;
+    margin-left: 73px;
+}
+.banner>div:hover{
+    background-color: rgba(14, 253, 46, 0.35);
+}
+
+.banner>div>h1{
+    font-size: 60px;
+}
+
+.banner>div>p{
+    font-size: 20px;
+    width: 550px;
+}
+/*Card */
+.container1 {
+    display: flex;
+    padding:120px;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column nowrap;
+    gap:40px;
+    height:100%;
+    background: linear-gradient(45deg, rgb(248, 66, 151), rgb(250, 250, 5));
+    
+    
+}
+.container1>.placeHolder{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+ .card>.item, .aboutUs>.item, .ourClients .item,.contact .item{
+    flex:1;
+    padding:10px;
+    line-height: 1;
+    text-align: center;
+    transition:0.5s ease-in-out;
+}
+
+.card>.placeHolder>.item{
+    width:35%;
+    height:450px;
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin:50px;
+    padding:20px;
+
+}
+.card>.placeHolder>.item:hover{
+    background-color: pink;
+    
+}
+
+.card>.placeHolder>.item>img{
+    padding:10px;
+    height:300px;
+    width:100%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.card>button{
+    height:40px;
+    width:140px;
+    background-color: pink;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card>button:hover{
+    height:50px;
+    width:160px;
+    background-color: white;
+    justify-content: center;
+}
+.card>div>h1{
+    color:white;
+    font-size:50px;
+    font-weight:bolder;
+}
+.card>div>h1:hover{
+    color: black;
+}
+
+
+
+
+
